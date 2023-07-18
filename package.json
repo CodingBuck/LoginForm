@@ -1,0 +1,27 @@
+{
+  "homepage": "https://CodingBuck.github.io/LoginForm",
+  "name": "loginform",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "Darien Ford",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express.js": "^1.0.0",
+    "knex": "^2.4.2",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
